@@ -22,7 +22,7 @@ let cnv;
 let counter;
 
 function preload(){
-	data = loadJSON('/db.json');
+	data = loadJSON('db.json');
 }
 
 
