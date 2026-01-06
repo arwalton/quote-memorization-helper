@@ -1,0 +1,38 @@
+/* Base styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout */
+header {
+  background-color: rgb(5, 243, 191);
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  color: rgb(4, 0, 10);
+  font-size: 1.5rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 0 2rem;
+  min-height: 400px;
+}
+
+.content h2 {
+  margin-bottom: 1.5rem;
+  color: rgb(4, 0, 10);
+}
